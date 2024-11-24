@@ -92,13 +92,28 @@ This project is a group effort for our 1st-year, 2nd-semester IWT coursework, sh
 2. Start exploring the system!
 
 ## Additional Information
-- Languages Used: HTML, CSS, JavaScript, PHP
-- Database Management: phpMyAdmin
-- Development Environment: Visual Studio Code, XAMPP
+- **Languages Used**: HTML, CSS, JavaScript, PHP
+- **Database Management**: phpMyAdmin
+- **Development Environment**: Visual Studio Code, XAMPP
 
 ## Screenshots
 ### Homepage
+![image](https://github.com/user-attachments/assets/40ebe15b-2a02-4f7f-ba36-80f7d08ee449)
 
 ### Admin Dashboard
+![image](https://github.com/user-attachments/assets/92fbd4b9-643a-49f8-8b45-21025b8f9a8d)
 
-####This project is part of our 1st-year, 2nd-semester IWT group coursework at SLIIT University.
+### Vote Page
+![image](https://github.com/user-attachments/assets/270c478f-2b1c-4cb3-8e86-075a9f25947f)
+
+### Watch Page
+![image](https://github.com/user-attachments/assets/ab16e168-2d49-44b0-af58-d0b9b97258e5)
+
+### Register Page
+![image](https://github.com/user-attachments/assets/7b45f31e-32de-4908-9d7b-063f018b5128)
+
+### Add Reality Show Page
+![image](https://github.com/user-attachments/assets/1fd9ad2d-d891-42b3-b996-cd902e4af7e3)
+
+
+#### This project is part of our 1st-year, 2nd-semester IWT group coursework at SLIIT University.
