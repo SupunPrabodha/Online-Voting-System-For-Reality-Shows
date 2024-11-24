@@ -91,15 +91,14 @@ This project is a group effort for our 1st-year, 2nd-semester IWT coursework, sh
 1. Open a browser and go to `http://localhost/<project-folder-name>/homepage.html`.
 2. Start exploring the system!
 
-Additional Information
-Languages Used: HTML, CSS, JavaScript, PHP
-Database Management: phpMyAdmin
-Development Environment: Visual Studio Code, XAMPP
-Screenshots
-Homepage
-(Add a description of the homepage and its purpose.)
+## Additional Information
+- Languages Used: HTML, CSS, JavaScript, PHP
+- Database Management: phpMyAdmin
+- Development Environment: Visual Studio Code, XAMPP
 
-Admin Dashboard
-(Add a description of the admin dashboard and its features.)
+## Screenshots
+### Homepage
 
-This project is part of our 1st-year, 2nd-semester IWT group coursework at SLIIT University.
+### Admin Dashboard
+
+####This project is part of our 1st-year, 2nd-semester IWT group coursework at SLIIT University.
