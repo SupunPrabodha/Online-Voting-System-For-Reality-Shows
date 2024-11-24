@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+body {
+    background-color:#000010;
+}
+
+
+.container1{
+    float:left;
+    
+}
+
+.container2{
+    width:200px;
+}
+
+
+.mainContent1{
+    width:80%;
+    margin-left: 250px; 
+}
+
+
+fieldset{
+    
+    width: 800px ;
+    margin-left: 4%; 
+}
+/*.container2{
+ 
+}
+*/
+
+/*form{
+    background-color: rgb(42, 44, 50);
+    color: black;
+    padding: 20px;
+    margin-bottom:20px ;
+}*/
+
+.ftext1{
+    color: black;
+}
+
+/*submit button*/
+
+/*.button5{
+    color:black;
+    height: 40px;
+    width: 100px ;
+
+}*/

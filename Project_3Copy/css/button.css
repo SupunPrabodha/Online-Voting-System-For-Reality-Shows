@@ -1,0 +1,46 @@
+/*Button*/
+
+.button1{
+    
+    border-radius: 12px;
+    padding:16px 50px;
+    background-color: azure;
+    color: #000010;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    margin: 10px 40%;
+
+}
+
+.button1:hover{
+    background-color:#000010;
+    color: azure;
+    border-color: azure;
+
+
+}
+
+
+.button2{
+    padding:10px 20px;
+    margin:5% 30%;
+    width : 40%;
+}
+
+
+
+.button3{
+    color: #ffffff;
+    background-color: #000010;
+    border-color: azure;
+}
+
+.button3:hover{
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+
+}

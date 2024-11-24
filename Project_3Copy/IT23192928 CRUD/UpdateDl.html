@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+     <!--link home.css-->
+        
+
+        <link rel="stylesheet" href="../css/navigationBar.css">        
+        <link rel="stylesheet" href="../css/text.css">
+        <link rel="stylesheet" href="../css/button.css">
+        <link rel="stylesheet" href="../css/navigationbar2.css">
+        <link rel="stylesheet" href="../css/deadline.css">
+        <link rel="stylesheet" href="../css/home.css">
+
+
+        <!--title-->
+
+        <title>
+            VoteSphere-Admin-Read Deadline Page
+        </title>
+
+</head>
+
+<body>
+
+ <!--section 1-->
+
+
+            <!--Navigation Bar1-->
+
+            <div class="topnav">
+                <a  id="logo1" href=""><img src = "../images/Logo1.png" style="height: 40px;" ></a>
+                <a  href="../home_page.html">Home</a>
+                <a  href="../Vote_Page.html">Vote</a>
+                <a  href="../watch_page.html">Watch</a>
+                <a  href="../popular_page.html">Popular</a>
+                <a  href="">About us</a>
+                <a  href="../Admin_Account.html">Admin</a>
+                <a class="active split" id="userID1" href="" style="background-color: darkblue;"><img src="../images/User_icon.png" style="height: 30px;"></a>
+                <a class="split" href="../login.html">Login</a>
+                <a class="split" href="../register.html">Sign in</a>
+            </div>
+
+            <!--Header image-->
+
+            <img src ="../images/header01.png" style="width:100%;">
+
+            
+
+
+
+
+
+
+             <!--Navigation bar 2-->
+             
+             <div class=" container1 container2" > 
+                <ul>
+                    <li><a href="../Admin_Account.html">Admin Account</a></li>
+                    <li><a href="../Admin-ManageVote.html">Manage Vote</a></li>
+                    <li><a class="active2" href="../Admin-SetDeadline.html">Manage Deadline</a></li>
+                    <li><a  href="../Admin-ManageAccount.html">Manage Accounts</a></li>
+                    <li><a href="../Admin-ManageRealityShow.html">Manage RealityShow</a></li>
+                    
+                </ul> 
+                </div>    
+            
+                
+
+
+
+                <div class="container1 mainContent1">
+
+
+                <!--Set Deadline form-->
+
+
+                <fieldset >
+                
+                
+                    
+                    <form action="update1changetable.php" method="post">
+
+                        <!--Select reality show and season-->
+
+                        <h1>Update Deadline</h1><br>
+
+                        <label for = "deadlineID" >Enter ID:</label>
+                        <input type = "text" id="id1_2" name ="deadlineID" class="ftext1"  required>
+
+                        <label for = "realityShow_1" >Update Reality Show :</label>
+
+                        <select name ="realityshow_1" class="ftext1" required>
+
+                            <option value="Super Star Singer" class="ftext1">Superstar Singer</option>
+                            <option value="Yes I Can Sing" class="ftext1" >Yes I can Sing</option>
+                            <option value="Swiftly Come Dancing" class="ftext1" >Swiftly Come Dancing</option>
+                        </select>
+                        
+
+                        <br><br>
+
+                        <label for = "season_1" >Select Season :</label>
+
+                        <select name ="season_1" class="ftext1" required>
+                            <option value="Season1" class="ftext1" >Season1</option>
+                            <option value="Season2" class="ftext1" >Season2</option>
+                            <option value="Season3" class="ftext1" >Season3</option>
+                        </select>
+
+                        <!--Enter deadline-->
+
+                        <br><br><br>
+                        <label for = "deadline" >Enter Deadlines:</label>
+                        <br><br>
+                        <label for = "startdate" >Start Date:</label>
+                        <input type = "date" id="Sdate1" name ="startdate" class="ftext1"  required>
+
+                        <label for = "enddate" >End Date:</label>
+                        <input type = "date" id="Edate1" name ="enddate" class="ftext1"  required>
+
+                        <br><br><br>
+                        <button type="submit" value="Submit" class="ftext1">Submit</button>
+                        <button type="reset" value="Reset" class="ftext1">Cancel</button>
+
+
+                    </form>
+                
+                </fieldset>        
+
+            
+            </div>
+        </div>
+
+
+   
+
+       
+    </body>
+</html>

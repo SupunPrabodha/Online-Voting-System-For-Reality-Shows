@@ -1,0 +1,32 @@
+
+/*UPDATED*/ /*CSS related to vote form*/
+select ,option{
+    color: black;
+}
+
+
+form {
+    width: 60vw;
+    max-width: 300px;
+    min-width: 150px;
+    margin: 0 auto;
+    
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }

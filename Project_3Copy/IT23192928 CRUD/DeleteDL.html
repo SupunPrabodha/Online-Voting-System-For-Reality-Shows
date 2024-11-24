@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+     <!--link css-->
+        
+
+        <link rel="stylesheet" href="../css/navigationBar.css">        
+        <link rel="stylesheet" href="../css/text.css">
+        <link rel="stylesheet" href="../css/button.css">
+        <link rel="stylesheet" href="../css/navigationbar2.css">
+        <link rel="stylesheet" href="../css/deadline.css">
+        <link rel="stylesheet" href="../css/home.css">
+
+        <script src="../js/myScript.js"></script>
+
+
+        <!--title-->
+
+        <title>
+            VoteSphere-Admin-Read Deadline Page
+        </title>
+
+</head>
+
+<body>
+
+ <!--section 1-->
+
+
+            <!--Navigation Bar1-->
+
+            <div class="topnav">
+                <a  id="logo1" href=""><img src = "../images/Logo1.png" style="height: 40px;" ></a>
+                <a  href="../home_page.html">Home</a>
+                <a  href="../Vote_Page.html">Vote</a>
+                <a  href="../watch_page.html">Watch</a>
+                <a  href="../popular_page.html">Popular</a>
+                <a  href="../aboutUs.html">About us</a>
+                <a  href="../Admin_Account.html">Admin</a>
+                <a class="active split" id="userID1" href="" style="background-color: darkblue;"><img src="../images/User_icon.png" style="height: 30px;"></a>
+                <a class="split" href="../login.html">Login</a>
+                <a class="split" href="../register.html">Sign in</a>
+            </div>
+
+            <!--Header image-->
+
+            <img src ="../images/header01.png" style="width:100%;">
+
+            
+
+             <!--Navigation bar 2-->
+             
+             <ul>
+                <li><a href="../Admin_Account.html">Admin Account</a></li>
+                <li><a href="../Admin-ManageVote.html">Manage Vote</a></li>
+                <li><a class="active2" href="../Admin-SetDeadline.html">Manage Deadline</a></li>
+                <li><a  href="../Admin-ManageAccount.html">Manage Accounts</a></li>
+                <li><a href="../Admin-ManageRealityShow.html">Manage RealityShow</a></li>
+                
+            </ul>    
+            
+                
+
+
+
+                <div class="container1 mainContent1">
+
+
+                <!--Delete Deadline form-->
+
+
+                <fieldset >
+                
+                
+                    
+                    <form action="delete1changetable.php" method="post">
+
+                        <!--Select ID-->
+
+                        <h1>Delete Deadline</h1><br>
+
+                        <label for = "deadlineID" >Enter ID:</label>
+                        <input type = "text" id="id1_2" name ="deadlineID" class="ftext1"  required>
+
+                        <br><br><br>
+                        
+                        <label for="confirm deletion" name="confirm deletion">
+                            <input id="confirm deletion" type="checkbox" required name="confirm deletion" class="inline" onclick="enableBtn();"/> Confirm Deletion
+                        </label><br>
+                        
+                        <input class="ftext1" type="submit" id="submit" value="Submit" disabled>
+                        <button type="reset" value="Reset" class="ftext1">Cancel</button>
+                        
+                        
+
+
+                    </form>
+                
+                </fieldset>        
+
+            
+            </div>
+        </div>
+
+
+     
+    
+</body>
+
+
+</html>
+
+

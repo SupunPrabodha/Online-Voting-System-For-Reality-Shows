@@ -1,0 +1,42 @@
+*{
+
+    color: rgb(223, 232, 232);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.t_header1{
+    font-size:400%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.t_header2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.t_header3{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 400%;
+}
+
+.t_header4{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 300%;
+}
+
+.t_header5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 200%;
+}
+
+.t_para1{
+    text-align: left;
+    font-size: 16px;
+}

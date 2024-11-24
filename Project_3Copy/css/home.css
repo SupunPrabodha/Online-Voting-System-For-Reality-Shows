@@ -1,0 +1,149 @@
+
+/*Add a black background color*/
+
+body {
+    background-color:#000010;
+}
+
+
+
+/* section 2-
+
+images*/
+
+.column{
+    float:left;
+    height: 75%;
+    
+    
+}
+
+.left,.right{
+    width:20%;
+    padding-top: 80px;
+    opacity: 30%;
+}
+
+.left{
+    padding-top: 80px;
+}
+
+.middle{
+    width:60%;  
+    margin: auto;
+    padding-top: 40px;
+    
+}
+
+.img1{
+    width:100%;
+}
+
+
+/*paragraph 1*/
+
+.p2{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 300%;
+    text-align: center;
+    transition: font-size 0.3s ease; /* Add smooth transition */
+}
+
+.p2:hover
+{
+    font-size: 290%;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+/* section 3 */
+
+    .level0{
+        width : 100%;
+        height : 550px;
+        
+    }
+
+
+    /*  divide column */
+    .level1{
+        float: left; 
+        width : 32%;
+        height : 550px;
+        padding : 0.6%;
+    }
+
+    .gallary{
+        width: 100%; /* Set initial width */
+        height: 250px; /* Set initial height */
+        overflow: hidden; /* Hide overflow to prevent layout shift */
+        transition: width 0.3s ease, height 0.3s ease; /* Add smooth transition */
+    }
+
+    /* realityShow images  */
+    .img2{
+        width: 95% ;
+        height: 250px;
+        overflow: hidden; /* Hide overflow to prevent layout shift */
+        transition: width 0.3s ease, height 0.3s ease;
+    
+    }
+
+    .img2:hover{
+        
+         width: 100%;
+         height: 255px;
+          /* Increase width on hover */
+         
+    }
+
+    /* realityShow names  */
+    .level3{
+        margin-top:5% ;
+    }
+
+
+    .level0:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    /*section 4*/
+
+    .level4{
+        width: 50%;
+        height: 800px;
+        float: left;
+        background-color: rgb(0, 0, 0);
+        box-sizing: border-box; /*to make the boarder not Change Size*/
+    }
+
+    .padding1:hover{
+        background-color: rgb(47, 47, 71);
+    }
+
+    .padding1{
+        padding: 20px;
+    }
+
+    #img4{
+        width: 100% ;        
+    }
+
+
+    
+    
+
+
