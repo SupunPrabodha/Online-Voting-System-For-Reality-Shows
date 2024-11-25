@@ -61,7 +61,7 @@ This project is a group effort for our 1st-year, 2nd-semester IWT coursework, sh
 
 ### Prerequisites
 1. **Visual Studio Code** or any code editor.
-2. **XAMPP** installed for PHP and MySQL.
+2. **XAMPP** installed for **PHP** and **MySQL**.
 3. Browser for testing.
 
 ---
