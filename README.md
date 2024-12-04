@@ -34,7 +34,7 @@ This project is a group effort for our **1st-year, 2nd-semester IWT project**, s
 ## Project Structure
 
 ### Frontend
-- `homepage.html`: Main page for all users.
+- `homepage.html`: **Main page** for all users.
 - `login.html`: User authentication page.
 - `register.html`: New user registration form.
 - `popularpage.html`: Lists trending reality shows.
