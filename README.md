@@ -36,7 +36,7 @@ This project is a group effort for our **1st-year, 2nd-semester IWT project**, s
 ### Frontend
 - `homepage.html`: **Main page** for all users.
 - `login.html`: **User authentication** page.
-- `register.html`: New user registration form.
+- `register.html`: **New user registration** form.
 - `popularpage.html`: Lists trending reality shows.
 
 ### User Pages
