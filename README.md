@@ -37,7 +37,7 @@ This project is a group effort for our **1st-year, 2nd-semester IWT project**, s
 - `homepage.html`: **Main page** for all users.
 - `login.html`: **User authentication** page.
 - `register.html`: **New user registration** form.
-- `popularpage.html`: Lists trending reality shows.
+- `popularpage.html`: Lists **trending reality shows**.
 
 ### User Pages
 - `useraccount.php`: User profile and account management.
