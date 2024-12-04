@@ -68,7 +68,7 @@ This project is a group effort for our **1st-year, 2nd-semester IWT project**, s
 
 ### Steps to Run the Application
 
-#### Step 1: Set Up XAMPP
+#### Step 1: Set Up **XAMPP**
 1. Open XAMPP and start **Apache** and **MySQL** services.
 
 #### Step 2: Configure Database
