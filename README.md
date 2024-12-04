@@ -6,7 +6,7 @@ An interactive web application for managing reality show votes online, developed
 
 ## Description
 
-This project is a group effort for our 1st-year, 2nd-semester IWT coursework, showcasing an online voting system for reality shows.
+This project is a group effort for our **1st-year, 2nd-semester IWT project**, showcasing an online voting system for reality shows.
 
 ---
 
