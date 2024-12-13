@@ -117,3 +117,5 @@ This project is a group effort for our **1st-year, 2nd-semester IWT project**, s
 
 
 #### This project is part of our 1st-year, 2nd-semester IWT group coursework at SLIIT University.
+
+⭐ If you like this project, don't forget to star it! ⭐
